@@ -1,0 +1,61 @@
+h1, h2, h3 {
+    color: black;
+    text-align: center;
+    font-family: 'Anek Malayalam', sans-serif;
+}
+h1 {
+    font-size: 70px;
+    line-height: 60px;
+}
+h2 {
+    font-size: 50px;
+    color: #7040ED;
+    margin: 12px;
+}
+h3 {
+    font-weight: normal;
+    font-size: 25px;
+}
+#headshot img {
+    height: 15%;
+    width: 15%;
+    display: block;
+    margin: 50px auto auto auto;
+}
+.icon-bar {
+    width: 93%; 
+    overflow: auto; 
+    text-align: center;
+    padding: 30px 50px;
+    font-size: 30px;
+  } 
+  .icon-bar a {
+    text-align: center; 
+    width: 5%; 
+    padding: 15px 0; 
+    transition: all 0.3s ease; 
+    color: white; 
+    font-size: 36px;
+  }
+  .icon-bar a:hover {
+    background-color: #fdc048;
+  }
+  .active {
+    background-color: #fdc048;
+  }
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-twitter, .fa-instagram, .fa-linkedin, .fa-github {
+    background: orange;
+    color: black;
+}
+
